@@ -1,0 +1,17 @@
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\bin\Debug\net6.0\InsertNb.DbRepository.deps.json
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\bin\Debug\net6.0\InsertNb.DbRepository.runtimeconfig.json
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\bin\Debug\net6.0\InsertNb.DbRepository.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\bin\Debug\net6.0\InsertNb.DbRepository.pdb
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\bin\Debug\net6.0\InsertNbp.Domain.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\bin\Debug\net6.0\InsertNbp.Domain.pdb
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.csproj.AssemblyReference.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.AssemblyInfoInputs.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.AssemblyInfo.cs
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.csproj.CoreCompileInputs.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.csproj.CopyComplete
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\refint\InsertNb.DbRepository.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.pdb
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\InsertNb.DbRepository.genruntimeconfig.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNb.DbRepository\obj\Debug\net6.0\ref\InsertNb.DbRepository.dll

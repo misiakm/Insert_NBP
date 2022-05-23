@@ -1,0 +1,12 @@
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\InsertNbp.NbpApi.csproj.AssemblyReference.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\InsertNbp.NbpApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\InsertNbp.NbpApi.AssemblyInfoInputs.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\InsertNbp.NbpApi.AssemblyInfo.cs
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\InsertNbp.NbpApi.csproj.CoreCompileInputs.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\bin\Debug\net6.0\InsertNbp.NbpApi.deps.json
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\bin\Debug\net6.0\InsertNbp.NbpApi.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\bin\Debug\net6.0\InsertNbp.NbpApi.pdb
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\InsertNbp.NbpApi.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\refint\InsertNbp.NbpApi.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\InsertNbp.NbpApi.pdb
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.NbpApi\obj\Debug\net6.0\ref\InsertNbp.NbpApi.dll

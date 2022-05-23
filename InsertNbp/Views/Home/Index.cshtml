@@ -1,0 +1,38 @@
+﻿@model IEnumerable<CurrencyRateModel>
+
+@{
+    ViewData["Title"] = "Kursy walut";
+}
+
+<div class="mb-3 col-4">
+    <label for="currency-date">Stan na dzień: </label>
+    <input type="date" class="form-control" value="@((ViewBag.Date ?? DateTime.Now.Date).ToString("yyyy-MM-dd"))" min="2002-01-02" id="currency-date" />
+</div>
+
+
+<div class="row">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Nazwa waluty</th>
+          <th scope="col">Kod waluty</th>
+          <th scope="col">Średni kurs wymiany</th>
+          <th scope="col">Średni kurs kupna</th>
+          <th scope="col">Średni kurs sprzedaży</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach (CurrencyRateModel rate in Model)
+        {
+            <tr>
+                <td>@rate.Currency</td>
+                <td>@rate.Code</td>
+                <td>@rate.Mid</td>
+                <td>@rate.Bid</td>
+                <td>@rate.Ask</td>
+            </tr>
+        }
+      </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,12 @@
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\bin\Debug\net6.0\InsertNbp.Domain.deps.json
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\bin\Debug\net6.0\InsertNbp.Domain.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\bin\Debug\net6.0\InsertNbp.Domain.pdb
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\InsertNbp.Domain.csproj.AssemblyReference.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\InsertNbp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\InsertNbp.Domain.AssemblyInfoInputs.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\InsertNbp.Domain.AssemblyInfo.cs
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\InsertNbp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\InsertNbp.Domain.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\refint\InsertNbp.Domain.dll
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\InsertNbp.Domain.pdb
+C:\Users\Mariusz\source\repos\InsertNbp\InsertNbp.Domain\obj\Debug\net6.0\ref\InsertNbp.Domain.dll

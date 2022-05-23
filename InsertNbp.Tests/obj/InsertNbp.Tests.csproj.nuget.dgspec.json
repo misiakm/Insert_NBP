@@ -1,0 +1,375 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Tests\\InsertNbp.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Commands\\InsertNbp.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Commands\\InsertNbp.Commands.csproj",
+        "projectName": "InsertNbp.Commands",
+        "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Commands\\InsertNbp.Commands.csproj",
+        "packagesPath": "C:\\Users\\Mariusz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mariusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Antheap-wewnetrzne/Logi_z_aplikacji_zbieracz/_packaging/Antheap_Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.DbRepository\\InsertNbp.DbRepository.csproj": {
+                "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.DbRepository\\InsertNbp.DbRepository.csproj"
+              },
+              "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\InsertNbp.NbpApi.csproj": {
+                "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\InsertNbp.NbpApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.DbRepository\\InsertNbp.DbRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.DbRepository\\InsertNbp.DbRepository.csproj",
+        "projectName": "InsertNbp.DbRepository",
+        "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.DbRepository\\InsertNbp.DbRepository.csproj",
+        "packagesPath": "C:\\Users\\Mariusz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.DbRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mariusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Antheap-wewnetrzne/Logi_z_aplikacji_zbieracz/_packaging/Antheap_Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Domain\\InsertNbp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Domain\\InsertNbp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Domain\\InsertNbp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Domain\\InsertNbp.Domain.csproj",
+        "projectName": "InsertNbp.Domain",
+        "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Domain\\InsertNbp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mariusz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mariusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Antheap-wewnetrzne/Logi_z_aplikacji_zbieracz/_packaging/Antheap_Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\InsertNbp.NbpApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\InsertNbp.NbpApi.csproj",
+        "projectName": "InsertNbp.NbpApi",
+        "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\InsertNbp.NbpApi.csproj",
+        "packagesPath": "C:\\Users\\Mariusz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mariusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Antheap-wewnetrzne/Logi_z_aplikacji_zbieracz/_packaging/Antheap_Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Tests\\InsertNbp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Tests\\InsertNbp.Tests.csproj",
+        "projectName": "InsertNbp.Tests",
+        "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Tests\\InsertNbp.Tests.csproj",
+        "packagesPath": "C:\\Users\\Mariusz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mariusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Antheap-wewnetrzne/Logi_z_aplikacji_zbieracz/_packaging/Antheap_Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Commands\\InsertNbp.Commands.csproj": {
+                "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.Commands\\InsertNbp.Commands.csproj"
+              },
+              "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\InsertNbp.NbpApi.csproj": {
+                "projectPath": "C:\\Users\\Mariusz\\source\\repos\\InsertNbp\\InsertNbp.NbpApi\\InsertNbp.NbpApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
