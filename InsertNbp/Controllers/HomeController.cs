@@ -25,29 +25,22 @@ namespace InsertNbp.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Index([FromRoute]DateTime? date)
         {
-            try
-            {
-                ViewBag.Date = date;
-                List<Commands.Currency.CurrencyRate> currencyRates = await _currencyRateService.GetCurrencyRates(date);
+            ViewBag.Date = date;
+            List<Commands.Currency.CurrencyRate> currencyRates = await _currencyRateService.GetCurrencyRates(date);
 
-                List<CurrencyRateModel> model = currencyRates
-                    .Select(rate => new CurrencyRateModel()
-                    {
-                        Currency = rate.Name,
-                        Ask = rate.Ask,
-                        Bid = rate.Bid,
-                        Code = rate.Code,
-                        Mid = rate.Mid
-                    })
-                    .OrderBy(x => x.Currency)
-                    .ToList();
+            List<CurrencyRateModel> model = currencyRates
+                .Select(rate => new CurrencyRateModel()
+                {
+                    Currency = rate.Name,
+                    Ask = rate.Ask,
+                    Bid = rate.Bid,
+                    Code = rate.Code,
+                    Mid = rate.Mid
+                })
+                .OrderBy(x => x.Currency)
+                .ToList();
 
-                return View(model);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex);
-            }
+            return View(model);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
